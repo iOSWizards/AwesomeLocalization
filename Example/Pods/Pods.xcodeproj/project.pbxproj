@@ -12,7 +12,6 @@
 		4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E7F35F0B18DB558FA8704BCC4ABA1F /* AwesomeLocalization-dummy.m */; };
 		6A63857148D5104F059FBBF54907662A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6EA04BA1E10DF56853C1D526004D9CF3 /* Pods-AwesomeLocalization_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D60C76C28CCC8A369465D1EBB42E8 /* Pods-AwesomeLocalization_Tests-dummy.m */; };
-		9E377B4DCBF25D64633758C7FFF175B9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59363C39D36907C64F8578D6516B514 /* ReplaceMe.swift */; };
 		C38AE714FF2BC14F8CC89559AAC8C5EF /* Pods-AwesomeLocalization_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E09F4E641E2C5E57EDB4B485509403 /* Pods-AwesomeLocalization_Example-dummy.m */; };
 		CD577EE197C10CA1A12E115442C8A797 /* AwesomeLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A53A117639037C31147102657DA8C673 /* AwesomeLocalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E99F46A28C5F201F1506360FDDD84BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,14 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6459EB1F855832001AD6F9 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		0A6459EC1F855832001AD6F9 /* LocalizableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableLabel.swift; sourceTree = "<group>"; };
 		0B06133A2718F68A24B4854C3EA4C9DE /* Pods-AwesomeLocalization_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeLocalization_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21A377B743B2DA2B2151BC2DBDC7F91C /* Pods-AwesomeLocalization_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeLocalization_Example.modulemap"; sourceTree = "<group>"; };
-		22DC339D25487135860574B54C7B54F9 /* Pods_AwesomeLocalization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeLocalization_Tests.framework; path = "Pods-AwesomeLocalization_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31E48260DAD6FFDADBC29954F4D48D5E /* AwesomeLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AwesomeLocalization.modulemap; sourceTree = "<group>"; };
+		21A377B743B2DA2B2151BC2DBDC7F91C /* Pods-AwesomeLocalization_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeLocalization_Example.modulemap"; sourceTree = "<group>"; };
+		22DC339D25487135860574B54C7B54F9 /* Pods_AwesomeLocalization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeLocalization_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E48260DAD6FFDADBC29954F4D48D5E /* AwesomeLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AwesomeLocalization.modulemap; sourceTree = "<group>"; };
 		3937828ED9182898C9CB92D6B4B0D309 /* Pods-AwesomeLocalization_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E9D0BF9C25F3E25CE191D173AB6339A /* Pods-AwesomeLocalization_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Example-resources.sh"; sourceTree = "<group>"; };
 		47EB3F99F83550D0181AF5596E2FE9B6 /* Pods-AwesomeLocalization_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4ED1EB225C73CDB676751E84FB00994A /* AwesomeLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeLocalization.framework; path = AwesomeLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED1EB225C73CDB676751E84FB00994A /* AwesomeLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50980C8E48C801B18739ECCD89DF0E32 /* Pods-AwesomeLocalization_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Tests-resources.sh"; sourceTree = "<group>"; };
 		5190A427B0A9A5B70503534AB6B215BB /* AwesomeLocalization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeLocalization.xcconfig; sourceTree = "<group>"; };
 		621B7581534B0E11A0BCC18B2DA018DE /* Pods-AwesomeLocalization_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeLocalization_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -46,16 +47,15 @@
 		70D62E362BA4C83D46BFF61C68D7163E /* Pods-AwesomeLocalization_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeLocalization_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77E09F4E641E2C5E57EDB4B485509403 /* Pods-AwesomeLocalization_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeLocalization_Example-dummy.m"; sourceTree = "<group>"; };
 		86A155462B14ECB16E4AE2375DECFAB9 /* Pods-AwesomeLocalization_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		86C53EC23232C91217EA22AB9980B889 /* Pods_AwesomeLocalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeLocalization_Example.framework; path = "Pods-AwesomeLocalization_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95EED21D4A57578A1684E7BC259202D7 /* Pods-AwesomeLocalization_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeLocalization_Tests.modulemap"; sourceTree = "<group>"; };
+		86C53EC23232C91217EA22AB9980B889 /* Pods_AwesomeLocalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeLocalization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EED21D4A57578A1684E7BC259202D7 /* Pods-AwesomeLocalization_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeLocalization_Tests.modulemap"; sourceTree = "<group>"; };
 		A10D60C76C28CCC8A369465D1EBB42E8 /* Pods-AwesomeLocalization_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeLocalization_Tests-dummy.m"; sourceTree = "<group>"; };
 		A53A117639037C31147102657DA8C673 /* AwesomeLocalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeLocalization-umbrella.h"; sourceTree = "<group>"; };
 		A9CE01EADD766880C830EB21B2D767F6 /* Pods-AwesomeLocalization_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AB27AC07A5D838EB7F92F4D59D51E2DA /* Pods-AwesomeLocalization_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABC64C40718E67497BF98D2BADF839E6 /* Pods-AwesomeLocalization_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeLocalization_Example-umbrella.h"; sourceTree = "<group>"; };
 		BDB904DBADEF627EB8E9066A68777E62 /* AwesomeLocalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeLocalization-prefix.pch"; sourceTree = "<group>"; };
-		C59363C39D36907C64F8578D6516B514 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AwesomeLocalization/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C9C9188597C12189D4A3D86D2EF6899D /* Pods-AwesomeLocalization_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeLocalization_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDCA8D7F024FF9F3A84072369E41F22B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E934B4741B9065C53736B1B4B44871F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6459EA1F855832001AD6F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A6459EB1F855832001AD6F9 /* String+Localized.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0A6459ED1F85584A001AD6F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A6459EC1F855832001AD6F9 /* LocalizableLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6C9D7A6BD1A3B621E2FB484078170A44 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +167,8 @@
 		AAC31BA84B811A7F76778925673B3108 /* AwesomeLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				C59363C39D36907C64F8578D6516B514 /* ReplaceMe.swift */,
+				0A6459ED1F85584A001AD6F9 /* View */,
+				0A6459EA1F855832001AD6F9 /* Extensions */,
 				F194EBA9725B72CA34E97DD6D1B8DAF1 /* Support Files */,
 			);
 			name = AwesomeLocalization;
@@ -295,7 +312,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
+				TargetAttributes = {
+					B5DE0425A77272FD9FE4E3B0B1599D3A = {
+						LastSwiftMigration = 0900;
+					};
+					F230356B2443FF09FD9F3F2A100E7D90 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,7 +363,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */,
-				9E377B4DCBF25D64633758C7FFF175B9 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +388,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -372,14 +398,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -462,7 +494,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -479,7 +512,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -487,15 +522,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -585,7 +626,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -624,7 +666,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -659,7 +702,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
