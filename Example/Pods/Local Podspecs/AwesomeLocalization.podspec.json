@@ -1,0 +1,22 @@
+{
+  "name": "AwesomeLocalization",
+  "version": "0.1.0",
+  "summary": "A short description of AwesomeLocalization.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/eharrison/AwesomeLocalization",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "eharrison": "evandro@itsdayoff.com"
+  },
+  "source": {
+    "git": "https://github.com/eharrison/AwesomeLocalization.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AwesomeLocalization/Classes/**/*"
+}

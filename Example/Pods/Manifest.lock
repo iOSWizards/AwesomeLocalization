@@ -1,0 +1,16 @@
+PODS:
+  - AwesomeLocalization (0.1.0)
+
+DEPENDENCIES:
+  - AwesomeLocalization (from `../`)
+
+EXTERNAL SOURCES:
+  AwesomeLocalization:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AwesomeLocalization: 77d2a0bd77732e1bb3813c5aa6d8fd4c106705a4
+
+PODFILE CHECKSUM: 23766f526a3e75febd39387208871da2286568ab
+
+COCOAPODS: 1.3.1
