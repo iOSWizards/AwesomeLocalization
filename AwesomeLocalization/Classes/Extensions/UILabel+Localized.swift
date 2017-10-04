@@ -19,22 +19,11 @@ extension UILabel {
         }
         set (localizedText) {
             UILabel.association[self] = localizedText as NSObject
-            self.text = localizedText.localized()
-        }
-    }
-    
-    @IBInspectable
-    public var localizationTable: String? {
-        get {
-            return UILabel.association[self] as? String ?? ""
-        }
-        set (localizationTable) {
-            UILabel.association[self] = localizationTable as NSObject?
-            self.text = localizedText.localized()
+            updateLocalization()
         }
     }
     
     public func updateLocalization() {
-        text = localizedText.localized(tableName: localizationTable)
+        text = localizedText.localized()
     }
 }

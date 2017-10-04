@@ -30,11 +30,20 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="test_placeholder"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Q3-2h-fcr">
+                                <rect key="frame" x="164.5" y="485" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="test_placeholder"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="0Q3-2h-fcr" firstAttribute="top" secondItem="Qvc-Mk-ewX" secondAttribute="bottom" constant="141" id="FK3-NB-1Dj"/>
                             <constraint firstItem="Qvc-Mk-ewX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="GqC-al-DBX"/>
                             <constraint firstItem="Qvc-Mk-ewX" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="MGV-fy-Lk5"/>
+                            <constraint firstItem="0Q3-2h-fcr" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="hb4-vo-SZo"/>
                         </constraints>
                     </view>
                 </viewController>
