@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AwesomeLocalization_Example' do
+  pod 'AwesomeLocalization', :path => '../'
+
+  target 'AwesomeLocalization_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
