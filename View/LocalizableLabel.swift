@@ -8,12 +8,23 @@
 
 import UIKit
 
-@IBDesignable class LocalizableLabel: UILabel {
+@IBDesignable
+public class LocalizableLabel: UILabel {
 
-    @IBInspectable var localizedText: String {
+    @IBInspectable var localizedText: String = "" {
         didSet {
-            text = localizedText.localized
+            updateLocalization()
         }
     }
-
+    
+    @IBInspectable var localizationTable: String = "Localizable" {
+        didSet {
+            updateLocalization()
+        }
+    }
+    
+    public func updateLocalization() {
+        text = localizedText.localized(tableName: localizationTable)
+    }
+    
 }

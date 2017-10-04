@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6459F21F855A62001AD6F9 /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6459EC1F855832001AD6F9 /* LocalizableLabel.swift */; };
+		0A6459F31F855A65001AD6F9 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6459EB1F855832001AD6F9 /* String+Localized.swift */; };
 		33C249B3C703B22E061019D9598CA0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		480BF5DA486B1EFF5265305DE9866278 /* Pods-AwesomeLocalization_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC64C40718E67497BF98D2BADF839E6 /* Pods-AwesomeLocalization_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E7F35F0B18DB558FA8704BCC4ABA1F /* AwesomeLocalization-dummy.m */; };
@@ -362,7 +364,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6459F31F855A65001AD6F9 /* String+Localized.swift in Sources */,
 				4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */,
+				0A6459F21F855A62001AD6F9 /* LocalizableLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
