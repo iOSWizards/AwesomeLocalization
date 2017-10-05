@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvc-Mk-ewX">
-                                <rect key="frame" x="163.5" y="321.5" width="48" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvc-Mk-ewX">
+                                <rect key="frame" x="36" y="321.5" width="303" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -35,15 +36,31 @@
                                 <state key="normal" title="Button"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="test_attributed_placeholder"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isAttributedLocalization" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpd-PQ-t1F">
+                                <rect key="frame" x="36" y="235" width="303" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="test_attributed_multilines_placeholder"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isAttributedLocalization" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0Q3-2h-fcr" firstAttribute="top" secondItem="Qvc-Mk-ewX" secondAttribute="bottom" constant="141" id="FK3-NB-1Dj"/>
                             <constraint firstItem="Qvc-Mk-ewX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="GqC-al-DBX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qvc-Mk-ewX" secondAttribute="trailing" constant="20" id="KcC-jR-oZ2"/>
                             <constraint firstItem="Qvc-Mk-ewX" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="MGV-fy-Lk5"/>
+                            <constraint firstItem="zpd-PQ-t1F" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="XDi-4o-iDs"/>
                             <constraint firstItem="0Q3-2h-fcr" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="hb4-vo-SZo"/>
+                            <constraint firstItem="Qvc-Mk-ewX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="20" id="iGL-MV-fVz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zpd-PQ-t1F" secondAttribute="trailing" constant="20" id="r0S-dS-9Kb"/>
+                            <constraint firstItem="Qvc-Mk-ewX" firstAttribute="top" secondItem="zpd-PQ-t1F" secondAttribute="bottom" constant="65.5" id="y1x-fw-bxZ"/>
                         </constraints>
                     </view>
                 </viewController>
