@@ -24,6 +24,10 @@ extension UILabel {
     }
     
     public func updateLocalization() {
-        text = localizedText.localized()
+        if let attributedText = localizedText.localizedAttributed(font: font, fontColor: textColor) {
+            self.attributedText = attributedText
+        } else {
+            text = localizedText.localized()
+        }
     }
 }

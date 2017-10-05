@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1496B11F86585C003608A5 /* Data+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B01F86585C003608A5 /* Data+Attributed.swift */; };
+		0A1496B31F8673FA003608A5 /* UIColor+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B21F8673FA003608A5 /* UIColor+HTML.swift */; };
 		0A8917D01F8566B600D1E2B7 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917CF1F8566B400D1E2B7 /* String+Localized.swift */; };
 		0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */; };
 		0A8917DA1F856E1C00D1E2B7 /* UILabel+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D81F856E1C00D1E2B7 /* UILabel+Localized.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1496B01F86585C003608A5 /* Data+Attributed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Data+Attributed.swift"; path = "../AwesomeLocalization/Classes/Extensions/Data+Attributed.swift"; sourceTree = "<group>"; };
+		0A1496B21F8673FA003608A5 /* UIColor+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+HTML.swift"; path = "../AwesomeLocalization/Classes/Extensions/UIColor+HTML.swift"; sourceTree = "<group>"; };
 		0A8917CF1F8566B400D1E2B7 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Localized.swift"; path = "../AwesomeLocalization/Classes/Extensions/String+Localized.swift"; sourceTree = "<group>"; };
 		0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectAssociation.swift; path = AwesomeLocalization/Classes/ObjectAssociation.swift; sourceTree = "<group>"; };
 		0A8917D81F856E1C00D1E2B7 /* UILabel+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UILabel+Localized.swift"; path = "../AwesomeLocalization/Classes/Extensions/UILabel+Localized.swift"; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				0A8917CF1F8566B400D1E2B7 /* String+Localized.swift */,
+				0A1496B01F86585C003608A5 /* Data+Attributed.swift */,
+				0A1496B21F8673FA003608A5 /* UIColor+HTML.swift */,
 				0A8917D81F856E1C00D1E2B7 /* UILabel+Localized.swift */,
 				0A8917D91F856E1C00D1E2B7 /* UIButton+Localized.swift */,
 			);
@@ -363,6 +369,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8917D01F8566B600D1E2B7 /* String+Localized.swift in Sources */,
+				0A1496B11F86585C003608A5 /* Data+Attributed.swift in Sources */,
+				0A1496B31F8673FA003608A5 /* UIColor+HTML.swift in Sources */,
 				0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */,
 				0A8917DA1F856E1C00D1E2B7 /* UILabel+Localized.swift in Sources */,
 				0A8917DB1F856E1C00D1E2B7 /* UIButton+Localized.swift in Sources */,

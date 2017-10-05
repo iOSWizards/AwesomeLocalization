@@ -35,7 +35,11 @@ extension UIButton {
     }*/
     
     public func updateLocalization() {
-        setTitle(localizedText.localized(), for: .normal)
+        if let attributedText = localizedText.localizedAttributed(font: titleLabel?.font, fontColor: titleColor(for: .normal)) {
+            setAttributedTitle(attributedText, for: .normal)
+        } else {
+            setTitle(localizedText.localized(), for: .normal)
+        }
     }
 }
 

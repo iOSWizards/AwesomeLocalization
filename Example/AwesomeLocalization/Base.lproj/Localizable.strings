@@ -1,2 +1,3 @@
 
 "test_placeholder" = "This is a test!";
+"test_attributed_placeholder" = "This is a <b>test</b>!";
