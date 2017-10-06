@@ -30,6 +30,24 @@
 
 /* Begin PBXFileReference section */
 		015CC8C5A81D5567FC1A936E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A3EADBC1F87FC43009F9A96 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		0A3EADBD1F87FC43009F9A96 /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		0A3EADBF1F87FC43009F9A96 /* Gilroy-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.otf"; sourceTree = "<group>"; };
+		0A3EADC01F87FC43009F9A96 /* Gilroy-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.otf"; sourceTree = "<group>"; };
+		0A3EADC11F87FC43009F9A96 /* Gilroy-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.otf"; sourceTree = "<group>"; };
+		0A3EADC21F87FC43009F9A96 /* Gilroy-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.otf"; sourceTree = "<group>"; };
+		0A3EADC31F87FC43009F9A96 /* Gilroy-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.otf"; sourceTree = "<group>"; };
+		0A3EADC41F87FC43009F9A96 /* Gilroy-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.otf"; sourceTree = "<group>"; };
+		0A3EADC51F87FC43009F9A96 /* Gilroy-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.otf"; sourceTree = "<group>"; };
+		0A3EADC61F87FC43009F9A96 /* Gilroy-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		0A3EADC71F87FC43009F9A96 /* Gilroy-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.otf"; sourceTree = "<group>"; };
+		0A3EADC81F87FC43009F9A96 /* Gilroy-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.otf"; sourceTree = "<group>"; };
+		0A3EADC91F87FC43009F9A96 /* Gilroy-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.otf"; sourceTree = "<group>"; };
+		0A3EADCA1F87FC43009F9A96 /* Gilroy-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.otf"; sourceTree = "<group>"; };
+		0A3EADCB1F87FC43009F9A96 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		0A3EADCC1F87FC43009F9A96 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		0A3EADCD1F87FC43009F9A96 /* Gilroy-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.otf"; sourceTree = "<group>"; };
+		0A3EADCE1F87FC43009F9A96 /* Gilroy-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
 		0A6459EF1F855967001AD6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0FD9ED28FFE9B71845CE30B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AwesomeLocalization_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLocalization_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +89,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3EADB91F87FC2C009F9A96 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				0A3EADBA1F87FC43009F9A96 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		0A3EADBA1F87FC43009F9A96 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0A3EADBB1F87FC43009F9A96 /* SF */,
+				0A3EADBE1F87FC43009F9A96 /* Gilroy */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0A3EADBB1F87FC43009F9A96 /* SF */ = {
+			isa = PBXGroup;
+			children = (
+				0A3EADBC1F87FC43009F9A96 /* SF-UI-Display-Regular.otf */,
+				0A3EADBD1F87FC43009F9A96 /* SF-UI-Display-Medium.otf */,
+			);
+			path = SF;
+			sourceTree = "<group>";
+		};
+		0A3EADBE1F87FC43009F9A96 /* Gilroy */ = {
+			isa = PBXGroup;
+			children = (
+				0A3EADBF1F87FC43009F9A96 /* Gilroy-Regular.otf */,
+				0A3EADC01F87FC43009F9A96 /* Gilroy-Black.otf */,
+				0A3EADC11F87FC43009F9A96 /* Gilroy-BlackItalic.otf */,
+				0A3EADC21F87FC43009F9A96 /* Gilroy-RegularItalic.otf */,
+				0A3EADC31F87FC43009F9A96 /* Gilroy-LightItalic.otf */,
+				0A3EADC41F87FC43009F9A96 /* Gilroy-HeavyItalic.otf */,
+				0A3EADC51F87FC43009F9A96 /* Gilroy-BoldItalic.otf */,
+				0A3EADC61F87FC43009F9A96 /* Gilroy-SemiBoldItalic.otf */,
+				0A3EADC71F87FC43009F9A96 /* Gilroy-Medium.otf */,
+				0A3EADC81F87FC43009F9A96 /* Gilroy-Heavy.otf */,
+				0A3EADC91F87FC43009F9A96 /* Gilroy-Bold.otf */,
+				0A3EADCA1F87FC43009F9A96 /* Gilroy-SemiBold.otf */,
+				0A3EADCB1F87FC43009F9A96 /* Gilroy-Light.otf */,
+				0A3EADCC1F87FC43009F9A96 /* Gilroy-ExtraBold.otf */,
+				0A3EADCD1F87FC43009F9A96 /* Gilroy-MediumItalic.otf */,
+				0A3EADCE1F87FC43009F9A96 /* Gilroy-ExtraBoldItalic.otf */,
+			);
+			path = Gilroy;
+			sourceTree = "<group>";
+		};
+		0A3EADCF1F87FD62009F9A96 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				0A6459EE1F855967001AD6F9 /* Localizable.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +175,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				0A6459EE1F855967001AD6F9 /* Localizable.strings */,
+				0A3EADCF1F87FD62009F9A96 /* Localization */,
+				0A3EADB91F87FC2C009F9A96 /* Assets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for AwesomeLocalization";

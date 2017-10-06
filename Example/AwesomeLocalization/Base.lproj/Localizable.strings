@@ -1,4 +1,4 @@
 
-"test_placeholder" = "This is a test! This is a 2 line text in an iPhone.";
+"test_placeholder" = "This is a test! This is a 2 line text in an <i>iPhone</i>.";
 "test_attributed_multilines_placeholder" = "This is a test! This is a 2 line text in an iPhone. <b>This text is bold</b>!";
 "test_attributed_placeholder" = "This is a <b>test</b>!";

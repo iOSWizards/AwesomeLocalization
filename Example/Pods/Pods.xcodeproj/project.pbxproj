@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1496B11F86585C003608A5 /* Data+Attributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B01F86585C003608A5 /* Data+Attributed.swift */; };
-		0A1496B31F8673FA003608A5 /* UIColor+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B21F8673FA003608A5 /* UIColor+HTML.swift */; };
-		0A8917D01F8566B600D1E2B7 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917CF1F8566B400D1E2B7 /* String+Localized.swift */; };
+		0A1496B11F86585C003608A5 /* Data+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B01F86585C003608A5 /* Data+AL.swift */; };
+		0A1496B31F8673FA003608A5 /* UIColor+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B21F8673FA003608A5 /* UIColor+AL.swift */; };
+		0A3EADB51F87F9E1009F9A96 /* UIButton+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */; };
+		0A3EADB61F87F9E3009F9A96 /* UILabel+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */; };
+		0A8917D01F8566B600D1E2B7 /* String+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917CF1F8566B400D1E2B7 /* String+AL.swift */; };
 		0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */; };
-		0A8917DA1F856E1C00D1E2B7 /* UILabel+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D81F856E1C00D1E2B7 /* UILabel+Localized.swift */; };
-		0A8917DB1F856E1C00D1E2B7 /* UIButton+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D91F856E1C00D1E2B7 /* UIButton+Localized.swift */; };
 		33C249B3C703B22E061019D9598CA0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		480BF5DA486B1EFF5265305DE9866278 /* Pods-AwesomeLocalization_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC64C40718E67497BF98D2BADF839E6 /* Pods-AwesomeLocalization_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E7F35F0B18DB558FA8704BCC4ABA1F /* AwesomeLocalization-dummy.m */; };
@@ -35,12 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A1496B01F86585C003608A5 /* Data+Attributed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Data+Attributed.swift"; path = "../AwesomeLocalization/Classes/Extensions/Data+Attributed.swift"; sourceTree = "<group>"; };
-		0A1496B21F8673FA003608A5 /* UIColor+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+HTML.swift"; path = "../AwesomeLocalization/Classes/Extensions/UIColor+HTML.swift"; sourceTree = "<group>"; };
-		0A8917CF1F8566B400D1E2B7 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Localized.swift"; path = "../AwesomeLocalization/Classes/Extensions/String+Localized.swift"; sourceTree = "<group>"; };
+		0A1496B01F86585C003608A5 /* Data+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Data+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/Data+AL.swift"; sourceTree = "<group>"; };
+		0A1496B21F8673FA003608A5 /* UIColor+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/UIColor+AL.swift"; sourceTree = "<group>"; };
+		0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+AL.swift"; sourceTree = "<group>"; };
+		0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+AL.swift"; sourceTree = "<group>"; };
+		0A8917CF1F8566B400D1E2B7 /* String+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/String+AL.swift"; sourceTree = "<group>"; };
 		0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectAssociation.swift; path = AwesomeLocalization/Classes/ObjectAssociation.swift; sourceTree = "<group>"; };
-		0A8917D81F856E1C00D1E2B7 /* UILabel+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UILabel+Localized.swift"; path = "../AwesomeLocalization/Classes/Extensions/UILabel+Localized.swift"; sourceTree = "<group>"; };
-		0A8917D91F856E1C00D1E2B7 /* UIButton+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIButton+Localized.swift"; path = "../AwesomeLocalization/Classes/Extensions/UIButton+Localized.swift"; sourceTree = "<group>"; };
 		0B06133A2718F68A24B4854C3EA4C9DE /* Pods-AwesomeLocalization_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeLocalization_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		21A377B743B2DA2B2151BC2DBDC7F91C /* Pods-AwesomeLocalization_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeLocalization_Example.modulemap"; sourceTree = "<group>"; };
 		22DC339D25487135860574B54C7B54F9 /* Pods_AwesomeLocalization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeLocalization_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,14 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3EADB21F87F9DB009F9A96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */,
+				0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */,
+			);
+			name = Views;
+			path = AwesomeLocalization/Classes/Views;
+			sourceTree = "<group>";
+		};
 		0A6459EA1F855832001AD6F9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0A8917CF1F8566B400D1E2B7 /* String+Localized.swift */,
-				0A1496B01F86585C003608A5 /* Data+Attributed.swift */,
-				0A1496B21F8673FA003608A5 /* UIColor+HTML.swift */,
-				0A8917D81F856E1C00D1E2B7 /* UILabel+Localized.swift */,
-				0A8917D91F856E1C00D1E2B7 /* UIButton+Localized.swift */,
+				0A8917CF1F8566B400D1E2B7 /* String+AL.swift */,
+				0A1496B01F86585C003608A5 /* Data+AL.swift */,
+				0A1496B21F8673FA003608A5 /* UIColor+AL.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -175,6 +183,7 @@
 			children = (
 				0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */,
 				0A6459EA1F855832001AD6F9 /* Extensions */,
+				0A3EADB21F87F9DB009F9A96 /* Views */,
 				F194EBA9725B72CA34E97DD6D1B8DAF1 /* Support Files */,
 			);
 			name = AwesomeLocalization;
@@ -368,13 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8917D01F8566B600D1E2B7 /* String+Localized.swift in Sources */,
-				0A1496B11F86585C003608A5 /* Data+Attributed.swift in Sources */,
-				0A1496B31F8673FA003608A5 /* UIColor+HTML.swift in Sources */,
+				0A8917D01F8566B600D1E2B7 /* String+AL.swift in Sources */,
+				0A1496B11F86585C003608A5 /* Data+AL.swift in Sources */,
+				0A1496B31F8673FA003608A5 /* UIColor+AL.swift in Sources */,
 				0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */,
-				0A8917DA1F856E1C00D1E2B7 /* UILabel+Localized.swift in Sources */,
-				0A8917DB1F856E1C00D1E2B7 /* UIButton+Localized.swift in Sources */,
 				4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */,
+				0A3EADB61F87F9E3009F9A96 /* UILabel+AL.swift in Sources */,
+				0A3EADB51F87F9E1009F9A96 /* UIButton+AL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
