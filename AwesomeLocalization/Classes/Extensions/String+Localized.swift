@@ -30,8 +30,11 @@ extension String {
         }
         
         if let font = font {
+            let fontName = font.fontName.replacingOccurrences(of: ".", with: "")
+            let fontFamily = fontName.components(separatedBy: "-").first ?? ""
+            
             styles.append("font-size: \(font.pointSize)px;")
-            styles.append("font-family: '-apple-system', '\(font.fontName.replacingOccurrences(of: ".", with: ""))', '\(font.fontName.replacingOccurrences(of: ".", with: ""))-Bold';")
+            styles.append("font-family: '-apple-system', '\(fontFamily)', '\(fontName)', '\(fontFamily)-Bold';")
         }
         
         if let alignment = alignment {
