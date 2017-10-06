@@ -22,7 +22,7 @@ extension String {
         return replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
     }
     
-    public func appendHTML(font: UIFont? = nil, fontColor: UIColor? = nil) -> String {
+    public func appendHTML(font: UIFont? = nil, fontColor: UIColor? = nil, alignment: NSTextAlignment? = nil) -> String {
         var styles = ""
         
         if let color = fontColor?.toHexString() {
@@ -31,10 +31,34 @@ extension String {
         
         if let font = font {
             styles.append("font-size: \(font.pointSize)px;")
-            styles.append("font-family: '\(font.familyName) Bold';")
+            styles.append("font-family: '-apple-system', '\(font.fontName.replacingOccurrences(of: ".", with: ""))', '\(font.fontName.replacingOccurrences(of: ".", with: ""))-Bold';")
         }
         
-        return ("<html><head><style>body {\(styles)}</style></head><body>"+self+"</body></html>")
+        if let alignment = alignment {
+            switch alignment {
+            case .center:
+                styles.append("text-align: center;")
+                break
+            case .justified:
+                styles.append("text-align: justified;")
+                break
+            case .left:
+                styles.append("text-align: left;")
+                break
+            case .right:
+                styles.append("text-align: right;")
+                break
+            case .natural:
+                styles.append("text-align: natural;")
+                break
+            }
+        }
+        
+        //styles
+        let body = "body {\(styles)}"
+        let bold = "b {font-weight: bold;}"
+        
+        return ("<html><head><style>\(body) \(bold)</style></head><body>\(self)</body></html>")
     }
     
     // MARK: - Localization
@@ -47,10 +71,10 @@ extension String {
         return NSLocalizedString(self, tableName: tableName ?? "Localizable", bundle: bundle, value: "", comment: "")
     }
     
-    public func localizedAttributed(tableName: String? = nil, bundle: Bundle = .main, font: UIFont? = nil, fontColor: UIColor? = nil) -> NSAttributedString? {
+    public func localizedAttributed(tableName: String? = nil, bundle: Bundle = .main, font: UIFont? = nil, fontColor: UIColor? = nil, alignment: NSTextAlignment? = nil) -> NSAttributedString? {
         let localizedString = localized(tableName: tableName, bundle: bundle)
         
-        return localizedString.appendHTML(font: font, fontColor: fontColor).utf8Data?.attributedString
+        return localizedString.appendHTML(font: font, fontColor: fontColor, alignment: alignment).utf8Data?.attributedString
     }
     
 }

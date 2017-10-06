@@ -52,7 +52,7 @@ extension UILabel {
     }
     
     public func updateLocalization() {
-        if isAttributedLocalization, let attributedText = localizedText.localizedAttributed(tableName: localizationTable, font: font, fontColor: textColor) {
+        if isAttributedLocalization, let attributedText = localizedText.localizedAttributed(tableName: localizationTable, font: font, fontColor: textColor, alignment: textAlignment) {
             self.attributedText = attributedText
         } else {
             text = localizedText.localized()

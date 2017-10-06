@@ -52,7 +52,7 @@ extension UIButton {
     }
     
     public func updateLocalization() {
-        if isAttributedLocalization,  let attributedText = localizedText.localizedAttributed(tableName: localizationTable, font: titleLabel?.font, fontColor: titleColor(for: .normal)) {
+        if isAttributedLocalization,  let attributedText = localizedText.localizedAttributed(tableName: localizationTable, font: titleLabel?.font, fontColor: titleColor(for: .normal), alignment: titleLabel?.textAlignment) {
             setAttributedTitle(attributedText, for: .normal)
         } else {
             setTitle(localizedText.localized(), for: .normal)
