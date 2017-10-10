@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 AwesomeLocalization is a private pod, only available through the address below.
 
 ```ruby
-pod 'AwesomeLocalization', git: 'https://github.com/mindvalley/Mobile_iOS_Library_AwesomeLocalization.git', tag: '0.1.8'
+pod 'AwesomeLocalization', git: 'https://github.com/mindvalley/Mobile_iOS_Library_AwesomeLocalization.git', tag: '0.1.9'
 ```
 
 ## Updating the code
