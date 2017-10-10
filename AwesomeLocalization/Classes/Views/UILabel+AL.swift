@@ -51,6 +51,8 @@ extension UILabel {
         }
     }
     
+    // MARK: - Localization
+    
     public func updateLocalization() {
         if isAttributedLocalization, let attributedText = localizedText.localizedAttributed(tableName: customLocalizationFile, font: font, fontColor: textColor, alignment: textAlignment) {
             self.attributedText = attributedText

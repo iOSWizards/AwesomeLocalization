@@ -15,7 +15,7 @@ extension UITextField {
     private static let localizedTextAssociation = ObjectAssociation<NSObject>()
     private static let placeholderTextColorAssociation = ObjectAssociation<NSObject>()
     private static let customLocalizationFileAssociation = ObjectAssociation<NSObject>()
-    private static let isAttributedLocalizationAssociation = ObjectAssociation<NSObject>()
+    private static let marginXAssociation = ObjectAssociation<NSObject>()
     
     // MARK: - Inspectables
     
@@ -52,22 +52,14 @@ extension UITextField {
         }
     }
     
-    @IBInspectable
-    public var isAttributedLocalization: Bool {
-        get {
-            return UITextField.isAttributedLocalizationAssociation[self] as? Bool ?? false
-        }
-        set (isLocalizationAttributed) {
-            UITextField.isAttributedLocalizationAssociation[self] = isLocalizationAttributed as NSObject
-            updateLocalization()
-        }
-    }
+    // MARK: - Localization
     
     public func updateLocalization() {
-        if isAttributedLocalization,  let attributedText = localizedPlaceholder.localizedAttributed(tableName: customLocalizationFile, font: font, fontColor: placeholderTextColor, alignment: textAlignment) {
+        if let attributedText = localizedPlaceholder.localizedAttributed(tableName: customLocalizationFile, font: font, fontColor: placeholderTextColor, alignment: textAlignment) {
             attributedPlaceholder = attributedText
         } else {
             placeholder = localizedPlaceholder.localized(tableName: customLocalizationFile)
         }
     }
+    
 }

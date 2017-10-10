@@ -1,5 +1,5 @@
 PODS:
-  - AwesomeLocalization (0.1.0)
+  - AwesomeLocalization (0.1.7)
 
 DEPENDENCIES:
   - AwesomeLocalization (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AwesomeLocalization: 77d2a0bd77732e1bb3813c5aa6d8fd4c106705a4
+  AwesomeLocalization: 60c7ed63345eb30a8c7e5fb1f1c9d75029848e70
 
 PODFILE CHECKSUM: 23766f526a3e75febd39387208871da2286568ab
 

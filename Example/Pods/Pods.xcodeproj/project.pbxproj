@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A1496B11F86585C003608A5 /* Data+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B01F86585C003608A5 /* Data+AL.swift */; };
-		0A1496B31F8673FA003608A5 /* UIColor+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B21F8673FA003608A5 /* UIColor+AL.swift */; };
-		0A3EADB51F87F9E1009F9A96 /* UIButton+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */; };
-		0A3EADB61F87F9E3009F9A96 /* UILabel+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */; };
-		0A7567E51F8CE1C900EFD9F9 /* UITextField+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7567E41F8CE1C900EFD9F9 /* UITextField+AL.swift */; };
-		0A8917D01F8566B600D1E2B7 /* String+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917CF1F8566B400D1E2B7 /* String+AL.swift */; };
-		0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */; };
-		33C249B3C703B22E061019D9598CA0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		480BF5DA486B1EFF5265305DE9866278 /* Pods-AwesomeLocalization_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC64C40718E67497BF98D2BADF839E6 /* Pods-AwesomeLocalization_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E7F35F0B18DB558FA8704BCC4ABA1F /* AwesomeLocalization-dummy.m */; };
 		6A63857148D5104F059FBBF54907662A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6EA04BA1E10DF56853C1D526004D9CF3 /* Pods-AwesomeLocalization_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10D60C76C28CCC8A369465D1EBB42E8 /* Pods-AwesomeLocalization_Tests-dummy.m */; };
+		6F179725AC47595CAA287C0C5517DC4B /* AwesomeLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C64E297FFBF753DCDED6682898C3B3B /* AwesomeLocalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8557B86FB7E2851BDC9BF0B3DF2D2BA7 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B7CD561F89FF3B5EB3F1ED05D98FF /* ObjectAssociation.swift */; };
+		87FD8D5C1C9B7B144E72AE66C1ED90EE /* UILabel+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BD1F4A3E2B86360BCD0A8E2A4938DC /* UILabel+AL.swift */; };
+		9BFC742A04B2349E344B78964FC8AD6D /* UITextField+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6881180AA46B86C87AD5FE9A272CB9C /* UITextField+AL.swift */; };
+		9E14E5FFE6B7E24AD6170C45F6A571C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AC55C451C0534219A0B32A8789FFC7BC /* UIColor+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCF1B8088A92184151FBFE1BAACE7AD /* UIColor+AL.swift */; };
 		C38AE714FF2BC14F8CC89559AAC8C5EF /* Pods-AwesomeLocalization_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E09F4E641E2C5E57EDB4B485509403 /* Pods-AwesomeLocalization_Example-dummy.m */; };
-		CD577EE197C10CA1A12E115442C8A797 /* AwesomeLocalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A53A117639037C31147102657DA8C673 /* AwesomeLocalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2996E3C91E023BAB9CC6AA5ED324185 /* UIButton+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243EBE16836F3F8BBD1627572148B225 /* UIButton+AL.swift */; };
 		E99F46A28C5F201F1506360FDDD84BD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA92EFF0C85C7AB6EA82F88C0BB14EAB /* String+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36236BAF4CD2EBBBD1B07619FC54826B /* String+AL.swift */; };
 		F5034D686EB10EFBDD22CB7449012616 /* Pods-AwesomeLocalization_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6688CD43BE38C82C082D1D737B44009 /* Pods-AwesomeLocalization_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A50EB9EF96236AAC43A3DBFD20E1B0 /* Data+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7585AB7C35289C9AEC54553B7DD5BB /* Data+AL.swift */; };
+		FD043A388FB4C8B5826AD59F19319207 /* AwesomeLocalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF6F184E68C284078D2AB2D2838A3C /* AwesomeLocalization-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,50 +30,50 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5DE0425A77272FD9FE4E3B0B1599D3A;
+			remoteGlobalIDString = 52A096C909DF9095A5AEF402386C0A58;
 			remoteInfo = AwesomeLocalization;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A1496B01F86585C003608A5 /* Data+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Data+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/Data+AL.swift"; sourceTree = "<group>"; };
-		0A1496B21F8673FA003608A5 /* UIColor+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/UIColor+AL.swift"; sourceTree = "<group>"; };
-		0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+AL.swift"; sourceTree = "<group>"; };
-		0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+AL.swift"; sourceTree = "<group>"; };
-		0A7567E41F8CE1C900EFD9F9 /* UITextField+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+AL.swift"; sourceTree = "<group>"; };
-		0A8917CF1F8566B400D1E2B7 /* String+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/String+AL.swift"; sourceTree = "<group>"; };
-		0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectAssociation.swift; path = AwesomeLocalization/Classes/ObjectAssociation.swift; sourceTree = "<group>"; };
 		0B06133A2718F68A24B4854C3EA4C9DE /* Pods-AwesomeLocalization_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeLocalization_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21A377B743B2DA2B2151BC2DBDC7F91C /* Pods-AwesomeLocalization_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeLocalization_Example.modulemap"; sourceTree = "<group>"; };
-		22DC339D25487135860574B54C7B54F9 /* Pods_AwesomeLocalization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeLocalization_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31E48260DAD6FFDADBC29954F4D48D5E /* AwesomeLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AwesomeLocalization.modulemap; sourceTree = "<group>"; };
+		12AFE27DA05E8FCFB15902E1589A93CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201B7CD561F89FF3B5EB3F1ED05D98FF /* ObjectAssociation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectAssociation.swift; path = AwesomeLocalization/Classes/ObjectAssociation.swift; sourceTree = "<group>"; };
+		21A377B743B2DA2B2151BC2DBDC7F91C /* Pods-AwesomeLocalization_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeLocalization_Example.modulemap"; sourceTree = "<group>"; };
+		22DC339D25487135860574B54C7B54F9 /* Pods_AwesomeLocalization_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeLocalization_Tests.framework; path = "Pods-AwesomeLocalization_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		243EBE16836F3F8BBD1627572148B225 /* UIButton+AL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+AL.swift"; sourceTree = "<group>"; };
+		31BF6F184E68C284078D2AB2D2838A3C /* AwesomeLocalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeLocalization-dummy.m"; sourceTree = "<group>"; };
+		36236BAF4CD2EBBBD1B07619FC54826B /* String+AL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+AL.swift"; sourceTree = "<group>"; };
 		3937828ED9182898C9CB92D6B4B0D309 /* Pods-AwesomeLocalization_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C64E297FFBF753DCDED6682898C3B3B /* AwesomeLocalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeLocalization-umbrella.h"; sourceTree = "<group>"; };
 		3E9D0BF9C25F3E25CE191D173AB6339A /* Pods-AwesomeLocalization_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Example-resources.sh"; sourceTree = "<group>"; };
+		3FCF1B8088A92184151FBFE1BAACE7AD /* UIColor+AL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+AL.swift"; sourceTree = "<group>"; };
 		47EB3F99F83550D0181AF5596E2FE9B6 /* Pods-AwesomeLocalization_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4ED1EB225C73CDB676751E84FB00994A /* AwesomeLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF25902E0DCF62C5D8B574043394146 /* AwesomeLocalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeLocalization-prefix.pch"; sourceTree = "<group>"; };
+		4E7585AB7C35289C9AEC54553B7DD5BB /* Data+AL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+AL.swift"; sourceTree = "<group>"; };
+		4ED1EB225C73CDB676751E84FB00994A /* AwesomeLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeLocalization.framework; path = AwesomeLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50980C8E48C801B18739ECCD89DF0E32 /* Pods-AwesomeLocalization_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Tests-resources.sh"; sourceTree = "<group>"; };
-		5190A427B0A9A5B70503534AB6B215BB /* AwesomeLocalization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeLocalization.xcconfig; sourceTree = "<group>"; };
 		621B7581534B0E11A0BCC18B2DA018DE /* Pods-AwesomeLocalization_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeLocalization_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66BD1F4A3E2B86360BCD0A8E2A4938DC /* UILabel+AL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+AL.swift"; sourceTree = "<group>"; };
 		6F097DE6DB2817FA321C444BB7E11785 /* Pods-AwesomeLocalization_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		70D62E362BA4C83D46BFF61C68D7163E /* Pods-AwesomeLocalization_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeLocalization_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		77E09F4E641E2C5E57EDB4B485509403 /* Pods-AwesomeLocalization_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeLocalization_Example-dummy.m"; sourceTree = "<group>"; };
 		86A155462B14ECB16E4AE2375DECFAB9 /* Pods-AwesomeLocalization_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		86C53EC23232C91217EA22AB9980B889 /* Pods_AwesomeLocalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeLocalization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95EED21D4A57578A1684E7BC259202D7 /* Pods-AwesomeLocalization_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AwesomeLocalization_Tests.modulemap"; sourceTree = "<group>"; };
+		86C53EC23232C91217EA22AB9980B889 /* Pods_AwesomeLocalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeLocalization_Example.framework; path = "Pods-AwesomeLocalization_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EED21D4A57578A1684E7BC259202D7 /* Pods-AwesomeLocalization_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AwesomeLocalization_Tests.modulemap"; sourceTree = "<group>"; };
 		A10D60C76C28CCC8A369465D1EBB42E8 /* Pods-AwesomeLocalization_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeLocalization_Tests-dummy.m"; sourceTree = "<group>"; };
-		A53A117639037C31147102657DA8C673 /* AwesomeLocalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeLocalization-umbrella.h"; sourceTree = "<group>"; };
+		A2576021A8E410B5EB1EAF6731690A43 /* AwesomeLocalization.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeLocalization.xcconfig; sourceTree = "<group>"; };
 		A9CE01EADD766880C830EB21B2D767F6 /* Pods-AwesomeLocalization_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeLocalization_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AB27AC07A5D838EB7F92F4D59D51E2DA /* Pods-AwesomeLocalization_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeLocalization_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABC64C40718E67497BF98D2BADF839E6 /* Pods-AwesomeLocalization_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeLocalization_Example-umbrella.h"; sourceTree = "<group>"; };
-		BDB904DBADEF627EB8E9066A68777E62 /* AwesomeLocalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeLocalization-prefix.pch"; sourceTree = "<group>"; };
 		C9C9188597C12189D4A3D86D2EF6899D /* Pods-AwesomeLocalization_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeLocalization_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDCA8D7F024FF9F3A84072369E41F22B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E41647E0E764669B63346242204E55DE /* AwesomeLocalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AwesomeLocalization.modulemap; sourceTree = "<group>"; };
 		E934B4741B9065C53736B1B4B44871F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB3DD4F980B8CB4A7B0CA8AF4B2490B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0E7F35F0B18DB558FA8704BCC4ABA1F /* AwesomeLocalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeLocalization-dummy.m"; sourceTree = "<group>"; };
 		F6688CD43BE38C82C082D1D737B44009 /* Pods-AwesomeLocalization_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeLocalization_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F6881180AA46B86C87AD5FE9A272CB9C /* UITextField+AL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+AL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,36 +93,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82857284D746F8D64B0D603574AD983C /* Frameworks */ = {
+		6DA05019364DA2F2CF016656A282BA69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C249B3C703B22E061019D9598CA0FC /* Foundation.framework in Frameworks */,
+				9E14E5FFE6B7E24AD6170C45F6A571C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A3EADB21F87F9DB009F9A96 /* Views */ = {
+		1705C55136E08802B5EB915E7EFDD656 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */,
-				0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */,
-				0A7567E41F8CE1C900EFD9F9 /* UITextField+AL.swift */,
+				243EBE16836F3F8BBD1627572148B225 /* UIButton+AL.swift */,
+				66BD1F4A3E2B86360BCD0A8E2A4938DC /* UILabel+AL.swift */,
+				F6881180AA46B86C87AD5FE9A272CB9C /* UITextField+AL.swift */,
 			);
 			name = Views;
 			path = AwesomeLocalization/Classes/Views;
 			sourceTree = "<group>";
 		};
-		0A6459EA1F855832001AD6F9 /* Extensions */ = {
+		54EB0D7B9A5F75DBD3ABD4010B7D8D0A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0A8917CF1F8566B400D1E2B7 /* String+AL.swift */,
-				0A1496B01F86585C003608A5 /* Data+AL.swift */,
-				0A1496B21F8673FA003608A5 /* UIColor+AL.swift */,
+				4E7585AB7C35289C9AEC54553B7DD5BB /* Data+AL.swift */,
+				36236BAF4CD2EBBBD1B07619FC54826B /* String+AL.swift */,
+				3FCF1B8088A92184151FBFE1BAACE7AD /* UIColor+AL.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = AwesomeLocalization/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		6C9D7A6BD1A3B621E2FB484078170A44 /* Targets Support Files */ = {
@@ -138,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FC66128A6D0648E384C0DEB781513352 /* Development Pods */,
+				D18E6ED51BD542D5656B99D68B31782B /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				FDC61FE40F2D14B7830C0ACBFA9FFEA3 /* Products */,
 				6C9D7A6BD1A3B621E2FB484078170A44 /* Targets Support Files */,
@@ -181,13 +182,13 @@
 			path = "Target Support Files/Pods-AwesomeLocalization_Tests";
 			sourceTree = "<group>";
 		};
-		AAC31BA84B811A7F76778925673B3108 /* AwesomeLocalization */ = {
+		B08631A929B0CBA6DD43450082174F70 /* AwesomeLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */,
-				0A6459EA1F855832001AD6F9 /* Extensions */,
-				0A3EADB21F87F9DB009F9A96 /* Views */,
-				F194EBA9725B72CA34E97DD6D1B8DAF1 /* Support Files */,
+				201B7CD561F89FF3B5EB3F1ED05D98FF /* ObjectAssociation.swift */,
+				54EB0D7B9A5F75DBD3ABD4010B7D8D0A /* Extensions */,
+				EE56BB56CA613CAA15D5E5A45D34FBBA /* Support Files */,
+				1705C55136E08802B5EB915E7EFDD656 /* Views */,
 			);
 			name = AwesomeLocalization;
 			path = ../..;
@@ -201,6 +202,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D18E6ED51BD542D5656B99D68B31782B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08631A929B0CBA6DD43450082174F70 /* AwesomeLocalization */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,26 +218,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F194EBA9725B72CA34E97DD6D1B8DAF1 /* Support Files */ = {
+		EE56BB56CA613CAA15D5E5A45D34FBBA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				31E48260DAD6FFDADBC29954F4D48D5E /* AwesomeLocalization.modulemap */,
-				5190A427B0A9A5B70503534AB6B215BB /* AwesomeLocalization.xcconfig */,
-				F0E7F35F0B18DB558FA8704BCC4ABA1F /* AwesomeLocalization-dummy.m */,
-				BDB904DBADEF627EB8E9066A68777E62 /* AwesomeLocalization-prefix.pch */,
-				A53A117639037C31147102657DA8C673 /* AwesomeLocalization-umbrella.h */,
-				EB3DD4F980B8CB4A7B0CA8AF4B2490B1 /* Info.plist */,
+				E41647E0E764669B63346242204E55DE /* AwesomeLocalization.modulemap */,
+				A2576021A8E410B5EB1EAF6731690A43 /* AwesomeLocalization.xcconfig */,
+				31BF6F184E68C284078D2AB2D2838A3C /* AwesomeLocalization-dummy.m */,
+				4DF25902E0DCF62C5D8B574043394146 /* AwesomeLocalization-prefix.pch */,
+				3C64E297FFBF753DCDED6682898C3B3B /* AwesomeLocalization-umbrella.h */,
+				12AFE27DA05E8FCFB15902E1589A93CD /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AwesomeLocalization";
-			sourceTree = "<group>";
-		};
-		FC66128A6D0648E384C0DEB781513352 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AAC31BA84B811A7F76778925673B3108 /* AwesomeLocalization */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		FDC61FE40F2D14B7830C0ACBFA9FFEA3 /* Products */ = {
@@ -252,11 +253,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3AEF6291109EB00B38616E0616B2802 /* Headers */ = {
+		88FEA48C2E121E66E919C4BDC8E2C0A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD577EE197C10CA1A12E115442C8A797 /* AwesomeLocalization-umbrella.h in Headers */,
+				6F179725AC47595CAA287C0C5517DC4B /* AwesomeLocalization-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,13 +289,13 @@
 			productReference = 22DC339D25487135860574B54C7B54F9 /* Pods_AwesomeLocalization_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B5DE0425A77272FD9FE4E3B0B1599D3A /* AwesomeLocalization */ = {
+		52A096C909DF9095A5AEF402386C0A58 /* AwesomeLocalization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96E50C86581808D93BEC260A141290AF /* Build configuration list for PBXNativeTarget "AwesomeLocalization" */;
+			buildConfigurationList = C71D363A453AEC299E90EF0F5F0ACC83 /* Build configuration list for PBXNativeTarget "AwesomeLocalization" */;
 			buildPhases = (
-				CA8DDE05C2B62F204FCAAB436E75B08A /* Sources */,
-				82857284D746F8D64B0D603574AD983C /* Frameworks */,
-				D3AEF6291109EB00B38616E0616B2802 /* Headers */,
+				3421AC6F87A8903C4C47F4663B3FFFAC /* Sources */,
+				6DA05019364DA2F2CF016656A282BA69 /* Frameworks */,
+				88FEA48C2E121E66E919C4BDC8E2C0A5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -330,15 +331,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
-				TargetAttributes = {
-					B5DE0425A77272FD9FE4E3B0B1599D3A = {
-						LastSwiftMigration = 0900;
-					};
-					F230356B2443FF09FD9F3F2A100E7D90 = {
-						LastSwiftMigration = 0900;
-					};
-				};
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,7 +345,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5DE0425A77272FD9FE4E3B0B1599D3A /* AwesomeLocalization */,
+				52A096C909DF9095A5AEF402386C0A58 /* AwesomeLocalization */,
 				F230356B2443FF09FD9F3F2A100E7D90 /* Pods-AwesomeLocalization_Example */,
 				426816AAA649A052F3489C47252F10B5 /* Pods-AwesomeLocalization_Tests */,
 			);
@@ -360,6 +353,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3421AC6F87A8903C4C47F4663B3FFFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD043A388FB4C8B5826AD59F19319207 /* AwesomeLocalization-dummy.m in Sources */,
+				F5A50EB9EF96236AAC43A3DBFD20E1B0 /* Data+AL.swift in Sources */,
+				8557B86FB7E2851BDC9BF0B3DF2D2BA7 /* ObjectAssociation.swift in Sources */,
+				EA92EFF0C85C7AB6EA82F88C0BB14EAB /* String+AL.swift in Sources */,
+				E2996E3C91E023BAB9CC6AA5ED324185 /* UIButton+AL.swift in Sources */,
+				AC55C451C0534219A0B32A8789FFC7BC /* UIColor+AL.swift in Sources */,
+				87FD8D5C1C9B7B144E72AE66C1ED90EE /* UILabel+AL.swift in Sources */,
+				9BFC742A04B2349E344B78964FC8AD6D /* UITextField+AL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A3DE4C5AC11A08FB8EB135CB49B984B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,86 +384,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA8DDE05C2B62F204FCAAB436E75B08A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A8917D01F8566B600D1E2B7 /* String+AL.swift in Sources */,
-				0A1496B11F86585C003608A5 /* Data+AL.swift in Sources */,
-				0A1496B31F8673FA003608A5 /* UIColor+AL.swift in Sources */,
-				0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */,
-				4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */,
-				0A3EADB61F87F9E3009F9A96 /* UILabel+AL.swift in Sources */,
-				0A7567E51F8CE1C900EFD9F9 /* UITextField+AL.swift in Sources */,
-				0A3EADB51F87F9E1009F9A96 /* UIButton+AL.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		928F78E68B217CC940DAFADD4B8E935D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AwesomeLocalization;
-			target = B5DE0425A77272FD9FE4E3B0B1599D3A /* AwesomeLocalization */;
+			target = 52A096C909DF9095A5AEF402386C0A58 /* AwesomeLocalization */;
 			targetProxy = 2123C32EF1AC7BB3B302097FA58FC42D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8A88282A8341C824C06E05EF4032371C /* Release */ = {
+		0244B260992667228A39295785184490 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F097DE6DB2817FA321C444BB7E11785 /* Pods-AwesomeLocalization_Tests.release.xcconfig */;
 			buildSettings = {
@@ -473,7 +414,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeLocalization_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeLocalization_Tests/Pods-AwesomeLocalization_Tests.modulemap";
@@ -491,44 +432,7 @@
 			};
 			name = Release;
 		};
-		A25945FC93C52EC6BD49AD3215E740CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5190A427B0A9A5B70503534AB6B215BB /* AwesomeLocalization.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeLocalization/AwesomeLocalization-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeLocalization/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeLocalization/AwesomeLocalization.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AwesomeLocalization;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -538,9 +442,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -548,80 +450,33 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		AECF18F9EA8B320C169AA9F49C4C5D74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB27AC07A5D838EB7F92F4D59D51E2DA /* Pods-AwesomeLocalization_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeLocalization_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeLocalization_Tests/Pods-AwesomeLocalization_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AwesomeLocalization_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DF87EFF99857CBB7BD2FA1A52DDFCB23 /* Release */ = {
+		55CD176B1596A1C480102F181D5CEB06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3937828ED9182898C9CB92D6B4B0D309 /* Pods-AwesomeLocalization_Example.release.xcconfig */;
 			buildSettings = {
@@ -639,7 +494,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeLocalization_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeLocalization_Example/Pods-AwesomeLocalization_Example.modulemap";
@@ -652,15 +507,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		EDEA1B210FE33C77646852D69EDEA36C /* Debug */ = {
+		828127FE04AD663E61A994D8AE171388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86A155462B14ECB16E4AE2375DECFAB9 /* Pods-AwesomeLocalization_Example.debug.xcconfig */;
 			buildSettings = {
@@ -678,7 +532,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeLocalization_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeLocalization_Example/Pods-AwesomeLocalization_Example.modulemap";
@@ -692,19 +546,88 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F9CABA9D485D64FF16F839CE6D77821F /* Debug */ = {
+		A917C5A2DB8D9B94876D322B8F18436A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5190A427B0A9A5B70503534AB6B215BB /* AwesomeLocalization.xcconfig */;
+			baseConfigurationReference = AB27AC07A5D838EB7F92F4D59D51E2DA /* Pods-AwesomeLocalization_Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeLocalization_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeLocalization_Tests/Pods-AwesomeLocalization_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AwesomeLocalization_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0CEEA7F203F1CF2205101EB865279B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2576021A8E410B5EB1EAF6731690A43 /* AwesomeLocalization.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeLocalization/AwesomeLocalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeLocalization/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeLocalization/AwesomeLocalization.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AwesomeLocalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC9D13FF5364234F7A31DDF9F4DAE3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2576021A8E410B5EB1EAF6731690A43 /* AwesomeLocalization.xcconfig */;
+			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -720,7 +643,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AwesomeLocalization/AwesomeLocalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AwesomeLocalization/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AwesomeLocalization/AwesomeLocalization.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -729,11 +652,59 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -743,8 +714,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,8 +723,8 @@
 		4AB159BE73D12B9F2C7459D41FE2457A /* Build configuration list for PBXNativeTarget "Pods-AwesomeLocalization_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AECF18F9EA8B320C169AA9F49C4C5D74 /* Debug */,
-				8A88282A8341C824C06E05EF4032371C /* Release */,
+				A917C5A2DB8D9B94876D322B8F18436A /* Debug */,
+				0244B260992667228A39295785184490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,17 +732,17 @@
 		4D5BA757BEBE4825EEE92B5107823DFC /* Build configuration list for PBXNativeTarget "Pods-AwesomeLocalization_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDEA1B210FE33C77646852D69EDEA36C /* Debug */,
-				DF87EFF99857CBB7BD2FA1A52DDFCB23 /* Release */,
+				828127FE04AD663E61A994D8AE171388 /* Debug */,
+				55CD176B1596A1C480102F181D5CEB06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96E50C86581808D93BEC260A141290AF /* Build configuration list for PBXNativeTarget "AwesomeLocalization" */ = {
+		C71D363A453AEC299E90EF0F5F0ACC83 /* Build configuration list for PBXNativeTarget "AwesomeLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9CABA9D485D64FF16F839CE6D77821F /* Debug */,
-				A25945FC93C52EC6BD49AD3215E740CA /* Release */,
+				CC9D13FF5364234F7A31DDF9F4DAE3DA /* Debug */,
+				B0CEEA7F203F1CF2205101EB865279B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

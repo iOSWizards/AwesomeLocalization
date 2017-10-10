@@ -51,6 +51,8 @@ extension UIButton {
         }
     }
     
+    // MARK: - Localization
+    
     public func updateLocalization() {
         if isAttributedLocalization,  let attributedText = localizedText.localizedAttributed(tableName: customLocalizationFile, font: titleLabel?.font, fontColor: titleColor(for: .normal), alignment: titleLabel?.textAlignment) {
             setAttributedTitle(attributedText, for: .normal)
