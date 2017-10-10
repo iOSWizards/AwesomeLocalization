@@ -26,11 +26,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3Ay-Tc-f4o">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3Ay-Tc-f4o">
                                 <rect key="frame" x="16" y="16" width="343" height="635"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpd-PQ-t1F">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="159"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="89"/>
                                         <fontDescription key="fontDescription" name="Gilroy-Regular" family="Gilroy" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -40,15 +40,37 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qvc-Mk-ewX">
-                                        <rect key="frame" x="0.0" y="159" width="343" height="158.5"/>
+                                        <rect key="frame" x="0.0" y="109" width="343" height="89.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="test_placeholder"/>
                                         </userDefinedRuntimeAttributes>
                                     </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Test placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qZe-QW-5ul">
+                                        <rect key="frame" x="0.0" y="218.5" width="343" height="89"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="test_field_attributed_placeholder"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isAttributedLocalization" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderTextColor">
+                                                <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Test placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SrX-NH-akc">
+                                        <rect key="frame" x="0.0" y="327.5" width="343" height="89"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="test_field_placeholder"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRR-WH-BwB">
-                                        <rect key="frame" x="0.0" y="317.5" width="343" height="159"/>
+                                        <rect key="frame" x="0.0" y="436.5" width="343" height="89.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="highlightedColor"/>
                                         <userDefinedRuntimeAttributes>
@@ -57,7 +79,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Q3-2h-fcr">
-                                        <rect key="frame" x="0.0" y="476.5" width="343" height="158.5"/>
+                                        <rect key="frame" x="0.0" y="546" width="343" height="89"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Button"/>
                                         <userDefinedRuntimeAttributes>

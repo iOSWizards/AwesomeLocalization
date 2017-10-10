@@ -11,6 +11,7 @@
 		0A1496B31F8673FA003608A5 /* UIColor+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1496B21F8673FA003608A5 /* UIColor+AL.swift */; };
 		0A3EADB51F87F9E1009F9A96 /* UIButton+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */; };
 		0A3EADB61F87F9E3009F9A96 /* UILabel+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */; };
+		0A7567E51F8CE1C900EFD9F9 /* UITextField+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7567E41F8CE1C900EFD9F9 /* UITextField+AL.swift */; };
 		0A8917D01F8566B600D1E2B7 /* String+AL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917CF1F8566B400D1E2B7 /* String+AL.swift */; };
 		0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */; };
 		33C249B3C703B22E061019D9598CA0FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -39,6 +40,7 @@
 		0A1496B21F8673FA003608A5 /* UIColor+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/UIColor+AL.swift"; sourceTree = "<group>"; };
 		0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+AL.swift"; sourceTree = "<group>"; };
 		0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+AL.swift"; sourceTree = "<group>"; };
+		0A7567E41F8CE1C900EFD9F9 /* UITextField+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+AL.swift"; sourceTree = "<group>"; };
 		0A8917CF1F8566B400D1E2B7 /* String+AL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+AL.swift"; path = "../AwesomeLocalization/Classes/Extensions/String+AL.swift"; sourceTree = "<group>"; };
 		0A8917D41F856B3A00D1E2B7 /* ObjectAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectAssociation.swift; path = AwesomeLocalization/Classes/ObjectAssociation.swift; sourceTree = "<group>"; };
 		0B06133A2718F68A24B4854C3EA4C9DE /* Pods-AwesomeLocalization_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeLocalization_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				0A3EADB31F87F9DB009F9A96 /* UIButton+AL.swift */,
 				0A3EADB41F87F9DB009F9A96 /* UILabel+AL.swift */,
+				0A7567E41F8CE1C900EFD9F9 /* UITextField+AL.swift */,
 			);
 			name = Views;
 			path = AwesomeLocalization/Classes/Views;
@@ -383,6 +386,7 @@
 				0A8917D51F856B3A00D1E2B7 /* ObjectAssociation.swift in Sources */,
 				4D78F061FC0AA01BB95FC79684B3612F /* AwesomeLocalization-dummy.m in Sources */,
 				0A3EADB61F87F9E3009F9A96 /* UILabel+AL.swift in Sources */,
+				0A7567E51F8CE1C900EFD9F9 /* UITextField+AL.swift in Sources */,
 				0A3EADB51F87F9E1009F9A96 /* UIButton+AL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@ extension UILabel {
     // MARK: - Associations
     
     private static let localizedTextAssociation = ObjectAssociation<NSObject>()
-    private static let localizationTableAssociation = ObjectAssociation<NSObject>()
+    private static let customLocalizationFileAssociation = ObjectAssociation<NSObject>()
     private static let isAttributedLocalizationAssociation = ObjectAssociation<NSObject>()
 
     // MARK: - Inspectables
@@ -30,12 +30,12 @@ extension UILabel {
     }
     
     @IBInspectable
-    public var localizationTable: String? {
+    public var customLocalizationFile: String? {
         get {
-            return UILabel.localizationTableAssociation[self] as? String
+            return UILabel.customLocalizationFileAssociation[self] as? String
         }
         set (localizationTable) {
-            UILabel.localizationTableAssociation[self] = localizationTable as NSObject?
+            UILabel.customLocalizationFileAssociation[self] = localizationTable as NSObject?
             updateLocalization()
         }
     }
@@ -52,10 +52,10 @@ extension UILabel {
     }
     
     public func updateLocalization() {
-        if isAttributedLocalization, let attributedText = localizedText.localizedAttributed(tableName: localizationTable, font: font, fontColor: textColor, alignment: textAlignment) {
+        if isAttributedLocalization, let attributedText = localizedText.localizedAttributed(tableName: customLocalizationFile, font: font, fontColor: textColor, alignment: textAlignment) {
             self.attributedText = attributedText
         } else {
-            text = localizedText.localized()
+            text = localizedText.localized(tableName: customLocalizationFile)
         }
     }
 }
