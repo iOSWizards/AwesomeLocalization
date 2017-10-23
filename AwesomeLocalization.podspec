@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/mindvalley/Mobile_iOS_Library_AwesomeLocalization'
+  s.homepage         = 'https://github.com/iOSWizards/AwesomeLocalization'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'eharrison' => 'evandro@itsdayoff.com' }
-  s.source           = { :git => 'https://github.com/mindvalley/Mobile_iOS_Library_AwesomeLocalization.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/iOSWizards/AwesomeLocalization.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.3'
