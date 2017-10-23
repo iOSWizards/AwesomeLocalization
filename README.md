@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-AwesomeLocalization is a private pod, only available through the address below.
+AwesomeLocalization is a public pod, only available through the address below.
 
 ```ruby
 pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalization.git', tag: '0.1.9'
@@ -22,13 +22,13 @@ pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalizati
 ## Usage
 
 1. Add the file `Localizable.strings` to the project
-![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/LocalizableStrings.png)
+<br />![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/LocalizableStrings.png)
 
 2. Add `localization placeholder`s to `Localizable` file
-![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/LocalizableStringsPlaceholders.png)
+<br />![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/LocalizableStringsPlaceholders.png)
 
 3. In the `Storyboard`, select the `component` you want to localize, add `localization placeholder` to `Localized Text` field.
-![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/StoryboardLocalization.png)
+<br />![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/StoryboardLocalization.png)
 
 4. Run the project
 
