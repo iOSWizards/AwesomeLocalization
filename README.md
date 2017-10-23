@@ -19,6 +19,34 @@ AwesomeLocalization is a private pod, only available through the address below.
 pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalization.git', tag: '0.1.9'
 ```
 
+## Usage
+
+1. Add the file `Localizable.strings` to the project
+![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/LocalizableStrings.png)
+
+2. Add `localization placeholder`s to `Localizable` file
+![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/LocalizableStringsPlaceholders.png)
+
+3. In the `Storyboard`, select the `component` you want to localize, add `localization placeholder` to `Localized Text` field.
+![alt text](https://github.com/iOSWizards/AwesomeLocalization/blob/master/Images/StoryboardLocalization.png)
+
+4. Run the project
+
+## Available Fields
+
+1. `Localized Text`: Placeholder for localization.
+2. `Custom Localization File`: Name of localization file (if not Localizable.strings)
+3. `is Attributed`: Toggles on/off attributed strings for HTML formatting.
+
+## UIKit support
+
+Currently, AwesomeLocalization supports localization for:
+- UIButton
+- UILabel
+- UITextField
+- UINavigationItem
+- UIBarItem
+
 ## Updating the code
 
 As we are installing the Library with CocoaPods, we have to follow a few steps to make sure it will update in our project(s).
