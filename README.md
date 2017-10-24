@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 9.3 or Higher
+- Swift 4
+
 ## Installation
 
 AwesomeLocalization is a public pod, only available through the address below.
@@ -114,7 +117,9 @@ pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalizati
 
 ## Author
 
-eharrison, evandro@itsdayoff.com
+- Evandro Harrison Hoffmann, evandro@itsdayoff.com
+- Leonardo Kaminski Ferreira, leonardo.kaminski.ferreira@gmail.com
+- Antônio Carlos, ton1n8o
 
 ## License
 
