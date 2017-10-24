@@ -87,33 +87,30 @@ All of the files created here will not be imported to our projects, so don't wor
 Ok, so for starters, you have to work on the changes you wanted to make, right? Otherwise there is no point in creating a new version! ;)
 *(Only proceed once you are ready to deploy)*
 
-1 - Navigate to file:
+1. Navigate to file:
 
 ```ruby
 AwesomeLocalization/Podspec Metadata/AwesomeLocalization.podspec
 ```
 
-2 - Change the **s.version** by summing 1 to the end:
+2. Change the **s.version** by summing 1 to the end:
 
 ```ruby
 //if version 0.1.3, the new version should be 0.1.4
 //if version 0.1.9, the new version should be 0.2.0
 ```
 
-3 - Edit the **README.md** file with the new version:
+3. Edit the **README.md** file with the new version:
 
 ```ruby
 //update tag to match the current version
 pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalization.git', tag: '0.1.0'
 ```
 
-4 - Commit your changes to **MASTER**
-
-5 - Create a new branch with the new version name. Push the new branch.
-
-6 - In your project, update the Podfile to match the new AwesomeLocalization version.
-
-7 - Run **pod install** and be happy :)
+4. Commit your changes to **MASTER**
+5. Create a new branch with the new version name. Push the new branch.
+6. In your project, update the Podfile to match the new AwesomeLocalization version.
+7. Run **pod install** and be happy :)
 
 ## Author
 
