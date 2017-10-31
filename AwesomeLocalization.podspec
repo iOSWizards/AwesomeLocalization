@@ -24,7 +24,7 @@ Make your app localization easy using it directly from storyboards.
   s.homepage         = 'https://github.com/iOSWizards/AwesomeLocalization'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'eharrison' => 'evandro@itsdayoff.com' }
+  s.author           = { 'Evandro Harrison Hoffmann, Leonardo Kaminski Ferreira' => 'evandro@itsdayoff.com, leonardo@mindvalley.com' }
   s.source           = { :git => 'https://github.com/iOSWizards/AwesomeLocalization.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
