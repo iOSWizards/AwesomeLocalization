@@ -28,7 +28,7 @@ Make your app localization easy using it directly from storyboards.
   s.source           = { :git => 'https://github.com/iOSWizards/AwesomeLocalization.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'AwesomeLocalization/Classes/**/*'
   

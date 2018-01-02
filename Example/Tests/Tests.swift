@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import AwesomeLocalization
+//import AwesomeLocalization
 
 class Tests: XCTestCase {
     
