@@ -18,7 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 AwesomeLocalization is a public pod, only available through the address below.
 
 ```ruby
-pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalization.git', tag: '0.2.0'
+pod 'AwesomeLocalization', git: 'https://github.com/iOSWizards/AwesomeLocalization.git', tag: '0.2.1'
 ```
 
 ## Usage

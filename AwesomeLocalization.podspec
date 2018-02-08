@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AwesomeLocalization'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Localization using storyboards'
 
 # This description is used to generate tags and improve search results.
