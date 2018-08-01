@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AwesomeLocalization'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'Localization using storyboards'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,13 @@ Make your app localization easy using it directly from storyboards.
   s.source           = { :git => 'https://github.com/iOSWizards/AwesomeLocalization.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  # Platforms
+  s.platforms = {
+   :ios => '9.0',
+   :osx => '10.10',
+   :watchos => '4.0',
+   :tvos => '10.0'
+  }
 
   s.source_files = 'AwesomeLocalization/Classes/**/*'
   
